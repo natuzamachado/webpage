@@ -1,0 +1,192 @@
+.fundo {
+    background: linear-gradient(68deg, #0fa3b1 10%, #b5e2fa 40%, #f9f7f3 70%, white);
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    display: auto;
+    margin-bottom: 0px;
+}
+
+.topnav {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.4em;
+    margin-right: 60px;
+    margin-left: 50px;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: #f7a072;
+    text-shadow: -1px 0 rgb(1, 5, 105), 0 1px white, 1px 0 white, 0 -1px rgb(1, 5, 105);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-property: color;
+    transition-delay: 0s;
+
+}
+
+.topnav:hover {
+    color: #eddea4;
+
+}
+
+#home {
+    
+    font-size: 2em;
+    display: grid;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    text-shadow: -1px 0 rgb(1, 5, 105), 0 1px white, 1px 0 white, 0 -1px rgb(1, 5, 105);
+    margin-right: 30%;
+    margin-left: 0px;
+
+}
+
+.topnav.home::after {
+
+    animation-play-state: running;
+    animation-duration: 3s;
+}
+
+#about-me {
+    color: #efdd95;
+    display: grid;
+    justify-content: flex-start;
+    justify-items: flex-start;
+
+
+
+}
+
+nav {
+    width: 1300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #b5e2fa;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.2%;
+    padding-top: 0;
+
+}
+
+.selfie {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-grow: 1;
+    width: 200px;
+    height: 230px;
+    margin-right: -45%;
+    margin-bottom: 10%;
+    margin-left: 12%;
+    margin-top: 10%;
+    border-radius: 20em;
+    border-style: double;
+    border-color: #b5e2fa;
+    border-width: 7px;
+
+    
+
+
+}
+
+
+
+.text {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+    font-family: Verdana, Geneva,Tahoma,sans-serif;
+    color: #1c5d99;
+    font-size: 2em;
+    margin-bottom: 30%;
+   
+   
+
+
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    width: 1000px;
+   
+    margin-top: 15%;
+    border: none;
+    background-color: none;
+
+}
+
+.icons {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    margin-right: 10px;
+    border-radius: 3em;
+}
+
+.icons:hover {
+
+    background-color: #eddea4;
+
+
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 670px;
+    height: 60px;
+    margin-right: 0%;
+    margin-left: 27%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    border-color: #eddea4;
+    opacity: 1px 1px 3px #fbbc75;
+
+
+}
+
+#linkedin {
+
+    width: 26px;
+    height: 26px;
+    padding-left: 10%;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 0em;
+    background-color: none;
+    background-size: auto;
+}
+#cn-tower{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-self:flex-start ;
+    margin-right:30%;
+    padding-right: 10%;
+}
