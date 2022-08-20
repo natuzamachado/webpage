@@ -184,7 +184,7 @@ footer {
  
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:700px) {
 
 header div nav{
     display:grid;
@@ -196,6 +196,13 @@ header div nav{
 header div nav ul{
   display: grid;
   gap:12px;
+  border-bottom: #b5e2fa;
+  border-top: #b5e2fa;
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+ 
 
 }
 header div nav ul li a{
@@ -204,10 +211,10 @@ header div nav ul li a{
 }
 
 header div nav ul li{
-    display: grid;
-    width: max-content;
-    margin-right: 0px;
-    padding-right: 0px;
+    display: flex;
+    justify-self: center;
+    margin: 0px;
+    padding: 0px;
 }
 
    button {
@@ -228,7 +235,7 @@ header div nav ul li{
         width: 150px;
         height: 150px;
         border-radius: 1em;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 2%;
     }
 
@@ -257,21 +264,10 @@ header div nav ul li{
 }
 
 @media all and (max-width:500px){
-    /* * {
-      
-            border: solid;
-            border-color:black;
-            border-width: 1px;
-
-    } */
-
+  
     .nav_option {
        display: grid;
        grid-template-columns: 1fr 1fr;
-       align-items: center;
-       border: solid;
-       border-color:yellow;
-       border-width: 2px;
        margin-top: 0px;
        padding-top: 0px;
        margin: 0px;
@@ -281,71 +277,48 @@ header div nav ul li{
 
       .menu {
           width: min-content;
-          margin-top: 60px;
+          align-self: flex-start;
           display: grid;
           grid-template-columns: 1fr 1fr;
-          align-content: flex-start;
-          align-items: flex-start;
+    
       }
       
       header div nav ul {
-
-            width: 82px;
-            height: 120px;
-            border: solid;
-            border-color:green;
-            border-width: 5px;
+            border-bottom:#b5e2fa;
+            border-top: #b5e2fa;
+            border-width: 2px;
+            border-style: solid;
+            border-left: none;
+            border-right: none;
             margin: 0px;
-            padding: 0px;
+            padding: 5px;
+
        }
+                  header div nav ul li{
+                     justify-self: center;
+        
+                  }
 
      header div nav{ 
-        margin: 0px;
-        padding: 0px;
-        align-items: flex-start;
-        justify-content: flex-start;
-        align-content: flex-start;
-        border: solid;
-        border-color: red;
-        border-width: 1px;
-
+    
+        margin-top: 10px;
+        margin-right: 10px;
+    
       }
 
       header div nav ul li a {
-        font-size: 0.85rem;
-      }
-  
-      button {
-        display:flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border: solid;
-        border-color: #0fa3b1;
-        border-width: 1px;
-        background-color: white;
-        border-radius: 5em;
-      }
-
-    .burguer {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        vertical-align: middle;
-        background-color: white;
-        padding: 3px;
+      
+        font-size: 0.8rem;
         margin: 0px;
         padding: 0px;
-        width: 30px;
-        height: 25px;
-    }
+      }
+  
  
     header div {
        margin-top: 0px;
        padding-left: 2px;
        padding-right: 0px;
-       margin-bottom: 10px;
-       margin-left: 2px;
+    
     }
 
     .logo {
