@@ -250,7 +250,7 @@ section {
 }
 }
 
-@media all and (max-width:540px){
+@media all and (max-width:600px){
   
     .nav_option {
        display: grid;

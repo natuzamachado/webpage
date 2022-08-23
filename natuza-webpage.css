@@ -13,8 +13,6 @@ body {
     display: grid;
     align-content: space-between;
     background: linear-gradient(360deg, #0fa3b1 3%, #b5e2fa 28%, #f9f7f3 63%, white);
-    border:olivedrab;
-    border-style: solid;
     border-width: 1px;
 }
 
